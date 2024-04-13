@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "~=1.28.0"
+openai = "*"
+langchain = "*"
+xarray = "*"
+geopy = "*"
+geopandas = "*"
+pyproj = "*"
+pandas = "*"
+folium = "*"
+streamlit-folium = "*"
+matplotlib = "*"
+netcdf4 = "*"
+dask = "*"
+replicate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
