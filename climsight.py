@@ -42,8 +42,8 @@ def llm_selection_cb():
     
 def render_map():
     
-    lat_default = 52.5240
-    lon_default = 13.3700
+    lat_default = 51.4779
+    lon_default =  -0.0015
     
     if 'latitude' not in st.session_state or 'longitude' not in st.session_state:
          st.session_state.latitude = lat_default
@@ -63,7 +63,7 @@ def render_map():
             st.session_state.latitude = clicked_coords["lat"]
             st.session_state.longitude = clicked_coords["lng"]
 
-WELCOME_MSG = 'Welcome to Climate Risk Assessment!!'
+WELCOME_MSG = 'Welcome to Local Climate Risk Assessment!!'
 
 def main():
     
