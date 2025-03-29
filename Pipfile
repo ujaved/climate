@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-streamlit = "~=1.28.0"
+streamlit = "*"
 openai = "*"
 langchain = "*"
+langchain-community = "*"
 xarray = "*"
 geopy = "*"
 geopandas = "*"
